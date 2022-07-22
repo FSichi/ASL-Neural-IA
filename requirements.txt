@@ -5,4 +5,5 @@ tensorflow==2.9.1
 keras==2.9.0
 joblib==1.1.0
 Keras-Preprocessing==1.1.2
+Pillow==9.1.1
 gunicorn
