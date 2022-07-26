@@ -8,7 +8,7 @@ import joblib
 
 app= Flask(__name__)
 
-modelo_entrenado = tf.keras.models.load_model('./modelo.h5')
+modelo_entrenado = tf.keras.models.load_model('./modelo2.h5')
 
 OptionsSign = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'Nothing', 'O', 'P', 'Q', 'R', 'S', 'Space', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 NumberOption = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27]
